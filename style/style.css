@@ -14,7 +14,7 @@ body{
 /* header area style  */
 header{
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 2.8rem auto 2.8rem auto;
 }
 /* navbar style  */
 .navbar{
@@ -25,4 +25,22 @@ header{
 .navbar .menu{
     display: flex;
     justify-content: space-evenly;
+}
+.navbar .menu ul{
+    display: flex;
+}
+.navbar .menu ul li{
+    list-style: none;
+    margin-right: 3rem;
+}
+.navbar .menu ul li a{
+    text-decoration: none;
+    transition: 0.3s;
+}
+.navbar .menu ul li a:hover{
+    text-decoration: underline;
+    color: #e6246b;
+}
+.navbar .menu ul li a:active{
+    color: #1100ff;
 }
