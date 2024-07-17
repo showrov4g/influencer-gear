@@ -1,0 +1,58 @@
+@media screen and (max-width: 576px) {
+    header{
+        margin: 0 auto;
+    }
+    .navbar .menu ul{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        justify-content: left;
+        align-items: left ;
+        background-color: #E02C6D;
+        padding: 2.8rem;
+    }
+    .navbar .menu{
+        flex-direction: column;
+        text-align: left;
+    }
+    .navbar .menu ul li a{
+        color: #000;
+    }
+    .hero-section{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .hero-text{
+        margin-left: 1.25rem;
+    }
+    .our-partner{
+        width: auto;
+    }
+    .company{
+        grid-template-columns: repeat( 2, 1fr);
+        gap: 30px;
+    }
+    .popular{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+    .hero-text{
+        width: auto;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) { 
+    .company{
+        grid-template-columns: repeat( 4, 1fr);
+        gap: 30px;
+    }
+    .our-partner{
+        width: auto;
+    }
+    .popular{
+        grid-template-columns: repeat(2, 1fr);
+    }
+ }
